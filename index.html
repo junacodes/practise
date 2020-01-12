@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+
+</head>
+
+
+<body>
+    <script src="./js/index.js"></script>
+
+    <div class="logo-container">
+        <!-- start of navgatior code -->
+
+        <nav>
+            <img
+                src="https://st2.depositphotos.com/3577609/11835/v/950/depositphotos_118355644-stock-illustration-restaurant-logo-design.jpg">
+            <div class="hint">
+                <i class="fa fa-facebook" style="color: blue; font-size:30px;"></i>
+                <i class="fa fa-twitter" style="color: #3ac; font-size:30px;"></i>
+                <i class="fa fa-google" style="color: rgb(219,68,55);font-size:30px;"></i>
+                <i class="fa fa-pinterest" style="color:#c8232c;font-size:30px;"></i>
+                <i class="fa fa-instagram" style="color: rgb(255,220,128);font-size:30px;"></i>
+            </div>
+            <!-- start of login container -->
+            <div class="login-container">
+                <button onclick="document.getElementById('id01').style.display='block'"
+                    style="width:auto;">Login</button>
+                <div id="id01" class="modal">
+
+                    <form class="modal-content animate" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Close Modal">&times;</span>
+                            <img src="./images/login.png" class="avatar">
+                        </div>
+
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Login</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- end of login-container -->
+        </nav>
+        <!-- end of navigatior code-->
+    </div>
+
+    <!-- start of banner -->
+    <div class="banner">
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <button type="submit" class="searchButton">
+                    <span>search</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of banner -->
+
+
+
+
+    <h1>types of food menu</h1>
+    <div class="row">
+        <!-- Top Row -->
+        <div class="column">
+            <a href="#">
+                <img src=".//images/burger.jpg">
+            </a>
+            <div class="food-link">
+                <a href="#">Burger</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <a href="#">
+                <img src=".//images/chinese.jpg">
+            </a>
+            <div class="food-link">
+                <a href="#">Thukpa</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <a href="#">
+                <img src=".//images/conti.png">
+            </a>
+            <div class="food-link">
+                <a href="#">continental</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <a href="#">
+                <img src=".//images/japnese.png">
+            </a>
+            <div class="food-link">
+                <a href="#">Japanese Mo Mo</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <a href="#">
+                <img src=".//images/momo.png">
+            </a>
+            <div class="food-link">
+                <a href="#">Mo Mo</a>
+            </div>
+        </div>
+        <!-- End of Top Row -->
+
+        <!-- Down Row -->
+        <div class="column">
+            <img src=".//images/momo.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">newari food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/pizza.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">pizza</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/sweet.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">sweet food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/ramen.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">korean food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/momo.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">nepali food</button>
+            </div>
+        </div>
+    </div>
+    <!-- end of down row -->
+
+
+    <a class="static-ad" target="_blank"
+        href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjd8NaRwO7mAhUReisKHbx4AAcQjhx6BAgBEAI&url=https%3A%2F%2Fwww.tobycarvery.co.uk%2Frestaurants%2Flondon%2Fmobydickromford&psig=AOvVaw2mdPd34YZUY5jmlOb23ooy&ust=1578383812518433"><img
+            src="https://www.tobycarvery.co.uk/content/dam/toby-carvery/images/2019/christmas/christmas-banner-christmaspage.gif.asset/1577785554735.gif"></a>
+
+
+
+
+    <div class="row">
+        <h1>types of food menu</h1>
+        <!-- Top Row -->
+        <div class="column">
+            <img src=".//images/burger.2.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">burger</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/chinese.jpg">
+            <div class="food-button">
+                <button class="green" style="width: auto;">chinese food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/conti.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">continental food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/japnese.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">japnese food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/momo.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">momo</button>
+            </div>
+        </div>
+        <!-- End of Top Row -->
+
+        <!-- Down Row -->
+        <div class="column">
+            <img src=".//images/momo.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">newari food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/pizza.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">pizza</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/sweet.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">sweet food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/ramen.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">korean food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/momo.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">nepali food</button>
+            </div>
+        </div>
+    </div>
+
+    <a
+        href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjEgJq4h_vmAhUzxzgGHRbkBvkQjhx6BAgBEAI&url=https%3A%2F%2Fdribbble.com%2Fshots%2F1442473-Advertising-GIF&psig=AOvVaw3yU3UJX-5BiDLpIqtZt7me&ust=1578815288928582"><img
+            src="https://cdn.dribbble.com/users/227808/screenshots/1442473/swim-ad.gif"></a>
+
+
+
+    <!--start of  third row  -->
+    <div class="row">
+        <h1>types of food menu</h1>
+        <!-- Top Row -->
+        <div class="column">
+            <img src=".//images/pizza-hut.png">
+            <div class="food-button">
+                <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjB7b-pu_3mAhWb4nMBHbsNC4YQjhx6BAgBEAI&url=https%3A%2F%2Fwww.bitrefill.com%2Fbuy%2Fpizza-hut-india%2F%3Fhl%3Den&psig=AOvVaw1Pdfb-55Tlu18kCDrwuDj_&ust=1578897237623674"
+                    style="width: auto;">pizza hut</a>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <img src=".//images/burger-house.png">
+            <div class="food-button">
+                <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi-9pnbu_3mAhWp73MBHcX5BXoQjhx6BAgBEAI&url=https%3A%2F%2Fwww.facebook.com%2FBurgerHouseMunich%2F&psig=AOvVaw1iAXgz7YOAX4kP62-ibdZ7&ust=1578898021140483"
+                    style="width: auto;">burger house</a>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/italian.png">
+            <div class="food-button">
+                <a href=""></a>
+            </div>
+        </div>
+
+
+
+        <div class="column">
+            <img src=".//images/momo.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">momo</button>
+            </div>
+        </div>
+        <!-- End of Top Row -->
+
+        <!-- Down Row -->
+        <div class="column">
+            <img src=".//images/momo.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">newari food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/pizza.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">pizza</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/sweet.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">sweet food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/ramen.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">korean food</button>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src=".//images/momo.png">
+            <div class="food-button">
+                <button class="green" style="width: auto;">nepali food</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
