@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RESTURENT</title>
+    <link rel="stylesheet" href="css/res.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="logo-container">
+        <!-- start of navgatior code -->
+
+        <nav id="navbar">
+            <img
+                src="https://st2.depositphotos.com/3577609/11835/v/950/depositphotos_118355644-stock-illustration-restaurant-logo-design.jpg">
+            <div class="hint">
+                <i class="fa fa-facebook" style="color: blue; font-size:30px;"></i>
+                <i class="fa fa-twitter" style="color: #3ac; font-size:30px;"></i>
+                <i class="fa fa-google" style="color: rgb(219,68,55);font-size:30px;"></i>
+                <i class="fa fa-pinterest" style="color:#c8232c;font-size:30px;"></i>
+                <i class="fa fa-instagram" style="color: rgb(255,220,128);font-size:30px;"></i>
+            </div>
+            <div class="login-container">
+                <button onclick="document.getElementById('id01').style.display='block'"
+                    style="width:auto;">Login</button>
+            </div>
+
+        </nav>
+    </div>
+    <!-- end of navigation bar -->
+    <!-- login-container -->
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <img src="./images/login.png" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    <!-- end of login container -->
+    <div class="slideshowContainer">
+
+
+        <img class="imageSlides" src="./images/piz.jpg" style="width: 100%" alt="">
+        <img class="imageSlides" src="images/rese.png" style="width: 100%" alt="">
+        <img class="imageSlides" src="./images/fid.png " style="width: 100%" alt="">
+
+
+        <span id="leftArrow" class="slideshowArrow">&#8249;</span>
+        <span id="rightArrow" class="slideshowArrow">&#8250;</span>
+
+        <div class="slideshowCircles">
+
+            <span class="circle dot"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="#">menu</a>
+            </li>
+            <li>
+                <a href="#">about</a>
+            </li>
+
+            <li>
+                <a href="#">review</a>
+            </li>
+            <li>
+                <a href="#">other branchs</a>
+            </li>
+        </ul>
+        <div class="search">
+            <input type="text" name="" id="" placeholder="search here for a food">
+            <button class="res">search</button>
+        </div>
+    </nav>
+
+    <section class="head">
+        <h6 style="padding:10px"> Menu categories</h6>
+        <div class="row">
+
+            <div class="column">
+                <ul class="list-item">
+                    <li>
+                        <a href="#"> Smoky Red Grilled Chicken, RS.600</a>
+
+                    </li>
+                    <li>
+                        <a href="#">Wednesday Offer, RS.900</a><br>
+                    </li>
+                    <li>
+                        <a href="#"> Boneless Chicken Strips, RS.500</a><br>
+                    </li>
+                    <li>
+                        <a href="#"> Hot & Crispy Chicken, RS.700</a><br>
+                    </li>
+                    <li>
+                        <a href="#"> Popcorn Chicken, RS.800</a>
+
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <div class="column">
+                <ul class="list-item">
+                    <li>
+                        <a href="#">
+
+                            GONG BAO CHICKEN, RS. 595</a><br>
+                    </li>
+                    <li>
+                        <a href="#">
+                            CHICKEN MALAI, RS. 575 </a><br>
+                    </li>
+                    <li>
+                        <a href="#">Aussie Pizza ( Breakfast Pizza ), RS.600 </a><br>
+                    </li>
+                    <li>
+                        <a href="#"> Hot & Crispy Chicken, RS.900</a><br>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Paneer Makhani, RS.700</a>
+
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <div class="column">
+                <ul class="list-item">
+                    <li>
+                        <a href="#"> Crunch Burger, RS.650</a>
+
+                    </li>
+                    <li>
+                        <a href="#">Chicken burger, RS.550</a><br>
+                    </li>
+                    <li>
+                        <a href="#">twister roll , RS.440</a><br>
+                    </li>
+                    <li>
+                        <a href="#"> french fry, RS.100</a><br>
+                    </li>
+                    <li>
+                        <a href="#"> coffee, RS.200</a>
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="foot">
+
+        <!-- Top Row -->
+        <div class="column2">
+            <h3>avaliable</h3>
+            <ul>
+                <li>
+                    <a href="#">about us</a>
+                </li>
+                <li> <a href="#">avaliable area</a></li>
+            </ul>
+        </div>
+
+        <div class="column2">
+            <h3>help</h3>
+            <ul>
+                <li>
+                    <a href="#">help</a>
+                </li>
+
+                <li>
+                    <a href="#">FAQ</a>
+
+                </li>
+
+                <li>
+                    <a href="#">how to order</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+
+        <div class="column2">
+            <h3>contact us</h3>
+            <ul>
+                <li>
+                    <a href="#">9844670092</a>
+                </li>
+                <li> <a href="#">9855432904</a></li>
+            </ul>
+        </div>
+
+
+
+        <script>
+            var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            window.onscroll = function () { myScroll() };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myScroll() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+
+
+            var imageSlides = document.getElementsByClassName('imageSlides');
+            var circles = document.getElementsByClassName('circle');
+            var leftArrow = document.getElementById('leftArrow');
+            var rightArrow = document.getElementById('rightArrow');
+            var counter = 0;
+
+            // HIDE ALL IMAGES FUNCTION
+            function hideImages() {
+                for (var i = 0; i < imageSlides.length; i++) {
+                    imageSlides[i].classList.remove('visible');
+                }
+            }
+
+            // REMOVE ALL DOTS FUNCTION
+            function removeDots() {
+                for (var i = 0; i < imageSlides.length; i++) {
+                    circles[i].classList.remove('dot');
+                }
+            }
+
+            // SINGLE IMAGE LOOP/CIRCLES FUNCTION
+            function imageLoop() {
+                var currentImage = imageSlides[counter];
+                var currentDot = circles[counter];
+                currentImage.classList.add('visible');
+                removeDots();
+                currentDot.classList.add('dot');
+                counter++;
+            }
+
+            // LEFT & RIGHT ARROW FUNCTION & CLICK EVENT LISTENERS
+            function arrowClick(e) {
+                var target = e.target;
+                if (target == leftArrow) {
+                    clearInterval(imageSlideshowInterval);
+                    hideImages();
+                    removeDots();
+                    if (counter == 1) {
+                        counter = (imageSlides.length - 1);
+                        imageLoop();
+                        imageSlideshowInterval = setInterval(slideshow, 10000);
+                    } else {
+                        counter--;
+                        counter--;
+                        imageLoop();
+                        imageSlideshowInterval = setInterval(slideshow, 10000);
+                    }
+                }
+                else if (target == rightArrow) {
+                    clearInterval(imageSlideshowInterval);
+                    hideImages();
+                    removeDots();
+                    if (counter == imageSlides.length) {
+                        counter = 0;
+                        imageLoop();
+                        imageSlideshowInterval = setInterval(slideshow, 10000);
+                    } else {
+                        imageLoop();
+                        imageSlideshowInterval = setInterval(slideshow, 10000);
+                    }
+                }
+            }
+
+            leftArrow.addEventListener('click', arrowClick);
+            rightArrow.addEventListener('click', arrowClick);
+
+
+            // IMAGE SLIDE FUNCTION
+            function slideshow() {
+                if (counter < imageSlides.length) {
+                    imageLoop();
+                } else {
+                    counter = 0;
+                    hideImages();
+                    imageLoop();
+                }
+            }
+
+            // SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
+            setTimeout(slideshow, 1000);
+            var imageSlideshowInterval = setInterval(slideshow, 10000);
+
+        </script>
+
+</body>
+
+</html>
